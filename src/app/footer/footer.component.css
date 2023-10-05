@@ -1,0 +1,9 @@
+.bottom-container {
+    color: #66bfbf;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem 0;
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }

@@ -1,0 +1,50 @@
+.container {
+  align-items: center;
+  text-align: center;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  justify-content: space-between;
+}
+.nav-item {
+  margin-left: 7rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.reference-navbar {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #303241;
+  padding: 0;
+}
+
+#navlist {
+  flex-direction: column;
+  display: none;
+}
+
+#toggle-nav {
+  display: block;
+  color: white;
+  margin-right: 3%;
+  padding-right: 3%;
+}
+
+a {
+  color: #45b29a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px 40px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+a:hover {
+  color: #eaf6f6;
+}
